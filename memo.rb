@@ -161,16 +161,20 @@
 
 # Q18. 以下のハッシュから name の値を取り出して下さい
 # {user: {name: "satou", age: 33}}
+
 # Q19. 以下の既存で存在する user_data に対して、 update_data の内容を反映させ user_data の内容を書き換えて下さい
 # user_data = {name: "神里", age: 31, address: "埼玉"}
 # update_data = {age: 32, address: "沖縄"}
+
 # Q20. 以下の全てのハッシュの name と age の値を取り出し、「私の名前は〜です年齢は〜歳です」と表示してください
 # {name: "satou", age: 22}
 # {name: "yamada", age: 12}
 # {name: "takahashi", age: 32}
 # {name: "nakamura", age: 41}
+
 # Q21. 以下の配列から全てのキーを取り出してターミナルに出力してください
 # {name: "satou", age: 33, address: "saitama", hobby: "soccer", email: "hoge@fuga.com"}
+
 # Q22. ハッシュを格納した以下の配列を使用し、期待した結果になるようにコードを書いてください
 # users = [
 # {name: "satou", age: 33, address: "saitama", hobby: "soccer", email: "hoge@fuga.com"},
@@ -183,14 +187,19 @@
 
 # ハッシュにデータがある場合：No〜 名前〜、年齢〜、趣味〜、メール〜
 # ハッシュがからの場合：データなし
+
 # Q23. 以下のハッシュをキー、バリュー含め全て配列に変換してください
 # {name: "satou", age: 33, address: "saitama", hobby: "soccer", email: "hoge@fuga.com"}
 # 変換後の配列
 
 # [:name, "satou", :age, 33, :address, "saitama", :hobby, "soccer", :email, "hoge@fuga.com"]
+
+
 # Q24. 以下のハッシュにおいて age というキーが含まれている場合は OK 、含まれていない場合は NG が表示されるようにしてください
 # { name: "saitou", hobby: "soccer", age: 33, role: "admin" }
 # { name: "yamada", hobby: "baseball", role: "normal" }
+
+
 # Q25. 配列 keys の各要素を、ハッシュ user がキーとして保持するかどうかを判定するコードを書いてください
 # keys = [:age, :name, :hobby, :address]
 # user = { name: "saitou", hobby: "soccer", age: 33, role: "admin" }
@@ -198,10 +207,16 @@
 
 # userにはageというキーがあります
 # userにはaddressというキーがありません
+
+
 # Q26. 以下の２つのハッシュを合体させた新しいハッシュを作成してください
 # {C: "printf", COBOL: "DISPLAY", Go: "fmt.Print", Java: "System.out.println"}
 # {JavaScript: "console.log", R: "print", Ruby: "puts"}
+
+
 # Q27. 名前、年齢、性別、管理者権限の情報を持ったユーザークラスを定義してインスタンスを作成してください管理者権限の有無はtrueかfalseで表してください
+
+
 # Q28.作成した Userクラス からインスタンスを生成、 infoメソッド を実行し、目標の出力になるようにコードを書き足してください
 # ＊ user2 の name age gender に関してはご自分の情報で大丈夫です
 
@@ -228,6 +243,8 @@
 # 年齢：32
 # 性別：男
 # 管理者権限：無し
+
+
 # Q29.次のようなコードを書いて、目標の出力になるようなUserクラスを定義してください
 # (名前情報は各自変えて大丈夫です！) ただし、今回は attr_accessor attr_reader attr_writer は使用しないでください
 
@@ -242,6 +259,8 @@
 
 # あじー
 # tanakin
+
+
 # Q30. 以下のようなコードを書いて、期待した出力になるようなUserクラスを定義してください
 # user = User.new(name: "あじー", age: 32)
 
@@ -254,6 +273,8 @@
 
 # こんにちは、あじーと申します宜しくお願いいたします
 # はいさいまいど〜、ゆたぼんです！！！
+
+
 # Q31. 以下のようなコードを書くとエラーが出たので期待する出力結果となるように修正してください
 # class Item
 #   def initialize(name)
@@ -267,11 +288,15 @@
 # 期待する出力結果
 
 # ゼロ秒思考
+
+
 # Q32.次の仕様を満たすコードを書いてください
 # 名前、年齢の情報を持った「ユーザークラス」を定義してください
 # 名前、入場料金の情報を持った「動物園クラス」を定義してください
 # 入場料金は、幼児(05歳)、子供(612歳)、成人(1364歳)、シニア(65120歳)の4パターン設定してください(金額はお任せします)
 # 動物園クラスに、ユーザークラスから生成されたインスタンスを受け取って、受けとったユーザーの年齢に応じて、入場料金を返す「check_entry_feeメソッド」を定義してください(年齢として無効な値が渡った場合は「無効な値です」と返してください)
+
+
 # Q33. 次の指定のキー name, age, address, tell が、Hash値のキーとして過不足無く含まれているかを判定するコードを書いてください
 # -例
 
@@ -279,6 +304,8 @@
 # このhashに対して実行する場合は true が返る
 # {name: "あじー", age: 32, address: "札幌"}
 # この場合は指定のキー tell が少ないので false が返る
+
+
 # Q34.次のコードが成り立つようにコードを書き加えてください
 # programming_language = ["ruby", "php", "python", "javascript"]
 
@@ -288,16 +315,22 @@
 
 # ["Ruby", "Php", "Python", "Javascript"]
 # ["RUBY", "PHP", "PYTHON", "JAVASCRIPT"]
+
+
 # Q35 2つのデータベースからユーザーネーム・学習項目・合計学習時間のデータを取得したら以下のようになりました
 # [["田中", "JavaScript"], 30]
 # 上記の配列を以下のようなハッシュに変換してください
 
 # {"user_name" => "田中", "learning_contents" => "JavaScript", "learning_time" => 30}
+
+
 # Q36 2つのデータベースからユーザーネーム・学習項目・合計学習時間のデータを取得したら以下のようになりました
 # {["田中", "JavaScript"]=>30}
 # 上記のハッシュを以下のようなハッシュに変換してください
 
 # {"user_name" => "田中", "learning_contents" => "JavaScript", "learning_time" => 30}
+
+
 # Q37 2つのデータベースからユーザーネーム・学習項目・合計学習時間のデータを取得したら以下のようになりました
 # {["田中", "HTML"]=>30, ["斎藤", "JavaScript"]=>50}
 # 上記のハッシュを以下のようなハッシュの配列に変換してください
